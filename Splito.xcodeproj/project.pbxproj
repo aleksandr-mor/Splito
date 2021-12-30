@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		479DA430275BE10600D3035C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479DA42F275BE10600D3035C /* AppDelegate.swift */; };
+		479DA432275BE10600D3035C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479DA431275BE10600D3035C /* SceneDelegate.swift */; };
+		479DA434275BE10600D3035C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479DA433275BE10600D3035C /* ViewController.swift */; };
+		479DA437275BE10600D3035C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479DA435275BE10600D3035C /* Main.storyboard */; };
+		479DA439275BE10700D3035C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479DA438275BE10700D3035C /* Assets.xcassets */; };
+		479DA43C275BE10700D3035C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479DA43A275BE10700D3035C /* LaunchScreen.storyboard */; };
+		479DA46A275BE6EC00D3035C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA45E275BE6EB00D3035C /* Roboto-Black.ttf */; };
+		479DA46B275BE6EC00D3035C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA45F275BE6EB00D3035C /* Roboto-Bold.ttf */; };
+		479DA46C275BE6EC00D3035C /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA460275BE6EB00D3035C /* Roboto-Italic.ttf */; };
+		479DA46D275BE6EC00D3035C /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA461275BE6EB00D3035C /* Roboto-BoldItalic.ttf */; };
+		479DA46E275BE6EC00D3035C /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA462275BE6EB00D3035C /* Roboto-LightItalic.ttf */; };
+		479DA46F275BE6EC00D3035C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA463275BE6EB00D3035C /* Roboto-Medium.ttf */; };
+		479DA470275BE6EC00D3035C /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA464275BE6EB00D3035C /* Roboto-MediumItalic.ttf */; };
+		479DA471275BE6EC00D3035C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA465275BE6EB00D3035C /* Roboto-Light.ttf */; };
+		479DA472275BE6EC00D3035C /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA466275BE6EB00D3035C /* Roboto-BlackItalic.ttf */; };
+		479DA473275BE6EC00D3035C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA467275BE6EB00D3035C /* Roboto-Regular.ttf */; };
+		479DA474275BE6EC00D3035C /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA468275BE6EB00D3035C /* Roboto-ThinItalic.ttf */; };
+		479DA475275BE6EC00D3035C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479DA469275BE6EB00D3035C /* Roboto-Thin.ttf */; };
+		F435B56B96E92239AEF4575D /* Pods_Splito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917CBA1FB244A5B767ADEBA7 /* Pods_Splito.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C3F1C4D46C4C2243EB88395 /* Pods-Splito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splito.release.xcconfig"; path = "Target Support Files/Pods-Splito/Pods-Splito.release.xcconfig"; sourceTree = "<group>"; };
+		479DA42C275BE10600D3035C /* Splito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		479DA42F275BE10600D3035C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		479DA431275BE10600D3035C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		479DA433275BE10600D3035C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		479DA436275BE10600D3035C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		479DA438275BE10700D3035C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		479DA43B275BE10700D3035C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		479DA43D275BE10700D3035C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479DA45E275BE6EB00D3035C /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		479DA45F275BE6EB00D3035C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		479DA460275BE6EB00D3035C /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		479DA461275BE6EB00D3035C /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		479DA462275BE6EB00D3035C /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		479DA463275BE6EB00D3035C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		479DA464275BE6EB00D3035C /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		479DA465275BE6EB00D3035C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		479DA466275BE6EB00D3035C /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		479DA467275BE6EB00D3035C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		479DA468275BE6EB00D3035C /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		479DA469275BE6EB00D3035C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		917CBA1FB244A5B767ADEBA7 /* Pods_Splito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Splito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D516169076E6F8CF2C6FD8F9 /* Pods-Splito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splito.debug.xcconfig"; path = "Target Support Files/Pods-Splito/Pods-Splito.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		479DA429275BE10600D3035C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F435B56B96E92239AEF4575D /* Pods_Splito.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E44FE7D799537F6BB858F3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D516169076E6F8CF2C6FD8F9 /* Pods-Splito.debug.xcconfig */,
+				2C3F1C4D46C4C2243EB88395 /* Pods-Splito.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		479DA423275BE10600D3035C = {
+			isa = PBXGroup;
+			children = (
+				479DA42E275BE10600D3035C /* Splitter */,
+				479DA42D275BE10600D3035C /* Products */,
+				2E44FE7D799537F6BB858F3D /* Pods */,
+				4B30EE5F718CE512FEFA7224 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		479DA42D275BE10600D3035C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				479DA42C275BE10600D3035C /* Splito.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		479DA42E275BE10600D3035C /* Splitter */ = {
+			isa = PBXGroup;
+			children = (
+				479DA42F275BE10600D3035C /* AppDelegate.swift */,
+				479DA431275BE10600D3035C /* SceneDelegate.swift */,
+				479DA433275BE10600D3035C /* ViewController.swift */,
+				479DA435275BE10600D3035C /* Main.storyboard */,
+				479DA438275BE10700D3035C /* Assets.xcassets */,
+				479DA43A275BE10700D3035C /* LaunchScreen.storyboard */,
+				479DA43D275BE10700D3035C /* Info.plist */,
+				479DA443275BE4FC00D3035C /* Font */,
+			);
+			path = Splitter;
+			sourceTree = "<group>";
+		};
+		479DA443275BE4FC00D3035C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				479DA45E275BE6EB00D3035C /* Roboto-Black.ttf */,
+				479DA466275BE6EB00D3035C /* Roboto-BlackItalic.ttf */,
+				479DA45F275BE6EB00D3035C /* Roboto-Bold.ttf */,
+				479DA461275BE6EB00D3035C /* Roboto-BoldItalic.ttf */,
+				479DA460275BE6EB00D3035C /* Roboto-Italic.ttf */,
+				479DA465275BE6EB00D3035C /* Roboto-Light.ttf */,
+				479DA462275BE6EB00D3035C /* Roboto-LightItalic.ttf */,
+				479DA463275BE6EB00D3035C /* Roboto-Medium.ttf */,
+				479DA464275BE6EB00D3035C /* Roboto-MediumItalic.ttf */,
+				479DA467275BE6EB00D3035C /* Roboto-Regular.ttf */,
+				479DA469275BE6EB00D3035C /* Roboto-Thin.ttf */,
+				479DA468275BE6EB00D3035C /* Roboto-ThinItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		4B30EE5F718CE512FEFA7224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				917CBA1FB244A5B767ADEBA7 /* Pods_Splito.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		479DA42B275BE10600D3035C /* Splito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479DA440275BE10700D3035C /* Build configuration list for PBXNativeTarget "Splito" */;
+			buildPhases = (
+				44EC63F0802D9F9BA5BE698A /* [CP] Check Pods Manifest.lock */,
+				479DA428275BE10600D3035C /* Sources */,
+				479DA429275BE10600D3035C /* Frameworks */,
+				479DA42A275BE10600D3035C /* Resources */,
+				B09BEE4BC9BF3A27DD8CAA03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Splito;
+			productName = Splitter;
+			productReference = 479DA42C275BE10600D3035C /* Splito.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		479DA424275BE10600D3035C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					479DA42B275BE10600D3035C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 479DA427275BE10600D3035C /* Build configuration list for PBXProject "Splito" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 479DA423275BE10600D3035C;
+			productRefGroup = 479DA42D275BE10600D3035C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				479DA42B275BE10600D3035C /* Splito */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		479DA42A275BE10600D3035C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479DA43C275BE10700D3035C /* LaunchScreen.storyboard in Resources */,
+				479DA46C275BE6EC00D3035C /* Roboto-Italic.ttf in Resources */,
+				479DA46E275BE6EC00D3035C /* Roboto-LightItalic.ttf in Resources */,
+				479DA471275BE6EC00D3035C /* Roboto-Light.ttf in Resources */,
+				479DA439275BE10700D3035C /* Assets.xcassets in Resources */,
+				479DA46B275BE6EC00D3035C /* Roboto-Bold.ttf in Resources */,
+				479DA437275BE10600D3035C /* Main.storyboard in Resources */,
+				479DA472275BE6EC00D3035C /* Roboto-BlackItalic.ttf in Resources */,
+				479DA475275BE6EC00D3035C /* Roboto-Thin.ttf in Resources */,
+				479DA470275BE6EC00D3035C /* Roboto-MediumItalic.ttf in Resources */,
+				479DA46D275BE6EC00D3035C /* Roboto-BoldItalic.ttf in Resources */,
+				479DA474275BE6EC00D3035C /* Roboto-ThinItalic.ttf in Resources */,
+				479DA473275BE6EC00D3035C /* Roboto-Regular.ttf in Resources */,
+				479DA46A275BE6EC00D3035C /* Roboto-Black.ttf in Resources */,
+				479DA46F275BE6EC00D3035C /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44EC63F0802D9F9BA5BE698A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Splito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09BEE4BC9BF3A27DD8CAA03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Splito/Pods-Splito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Splito/Pods-Splito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Splito/Pods-Splito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		479DA428275BE10600D3035C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479DA434275BE10600D3035C /* ViewController.swift in Sources */,
+				479DA430275BE10600D3035C /* AppDelegate.swift in Sources */,
+				479DA432275BE10600D3035C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		479DA435275BE10600D3035C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479DA436275BE10600D3035C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		479DA43A275BE10700D3035C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479DA43B275BE10700D3035C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		479DA43E275BE10700D3035C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		479DA43F275BE10700D3035C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		479DA441275BE10700D3035C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D516169076E6F8CF2C6FD8F9 /* Pods-Splito.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNR2D834QB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Splitter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Splito;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = almor.Splito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		479DA442275BE10700D3035C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3F1C4D46C4C2243EB88395 /* Pods-Splito.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNR2D834QB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Splitter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Splito;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = almor.Splito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		479DA427275BE10600D3035C /* Build configuration list for PBXProject "Splito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479DA43E275BE10700D3035C /* Debug */,
+				479DA43F275BE10700D3035C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479DA440275BE10700D3035C /* Build configuration list for PBXNativeTarget "Splito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479DA441275BE10700D3035C /* Debug */,
+				479DA442275BE10700D3035C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 479DA424275BE10600D3035C /* Project object */;
+}
